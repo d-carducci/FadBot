@@ -47,13 +47,6 @@ for key, list in animal_dict.items():
 
 
 '''
-consumer_key = "2zsbF13GobWZpoLMJF3rPBQ4T"
-consumer_secret = "xbvXWMumsj9BQFRlFVSIUYJrpc73WZbOAAUJV3YiQKCKeIIqlk"
-
-access_token = "357633629-cZglWFyrjRE8sewL4Pb7Er4P4np0LYSm6dEOqLnz"
-access_secret = "m6150haorpimbqM8truGkeYRO8PVMqiTjttkS3a8ppTic"
-
-
 
 api = tweepy.API(auth)
 
