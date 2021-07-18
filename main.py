@@ -4,12 +4,28 @@ from json import load
 from dotenv import load_dotenv
 load_dotenv()
 
+dump_text = 1
+
 with open('text.json', 'r') as text_file:
     text = load(text_file)
+    categories = text.keys()
     intro_dict = text['intros']
-    quality_dict = text['qualities']
-    animal_dict = text['animals']
-    buyer_dict = text['buyers']
+    quality_dict = {key: ''.join(list) for key, list in text['qualities'].items()}
+    animal_dict = {key: ''.join(list) for key, list in text['animals'].items()}
+    buyer_dict = {key: ''.join(list) for key, list in text['buyers'].items()}
+    extra_dict = {key: ''.join(list) for key, list in text['extras'].items()}
+
+    master_dict = {'intro_' + key: tweet for key, tweet in intro_dict.items()}
+    master_dict.update({'quality_' + key: tweet for key, tweet in quality_dict.items()})
+    master_dict.update({'animal_' + key: tweet for key, tweet in animal_dict.items()})
+    master_dict.update({'buyer_' + key: tweet for key, tweet in buyer_dict.items()})
+    master_dict.update({'extra_' + key: tweet for key, tweet in extra_dict.items()})
+
+    if dump_text:
+        with open('text_dump.txt', 'w') as dump_file:
+            for tweet in master_dict.values():
+                dump_file.write(tweet)
+                dump_file.write('\n\n\n')
 
 
 def create_intro(*args):
@@ -30,20 +46,19 @@ def login():
     api = tweepy.API(auth)
     return api
 
-api = login()
-try:
-    api.verify_credentials()
-    print("Authentication OK")
-except:
-    print("Error during authentication")
-
 char_lim = 280
 
-for key, list in animal_dict.items():
-    tweet = ''.join(list)
-    print(tweet)
-    print(-len(tweet) + char_lim)
 
+def update(quality, animal, buyer):
+    intro = create_intro(quality, animal, buyer)
+    api = login()
+    tweets = [intro, quality_dict[quality], animal_dict[animal], buyer_dict[buyer]]
+    reply_id = None
+    for tweet in tweets:
+        status = api.update_status(status=tweet,
+                                 in_reply_to_status_id=reply_id,
+                                 auto_populate_reply_metadata=True)
+        reply_id = status.id
 
 
 '''
