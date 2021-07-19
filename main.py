@@ -1,8 +1,6 @@
 import tweepy
-import os
 from json import load
-from dotenv import load_dotenv
-load_dotenv()
+
 
 dump_text = 1
 
@@ -10,10 +8,10 @@ with open('text.json', 'r') as text_file:
     text = load(text_file)
     categories = text.keys()
     intro_dict = text['intros']
-    quality_dict = {key: ''.join(list) for key, list in text['qualities'].items()}
-    animal_dict = {key: ''.join(list) for key, list in text['animals'].items()}
-    buyer_dict = {key: ''.join(list) for key, list in text['buyers'].items()}
-    extra_dict = {key: ''.join(list) for key, list in text['extras'].items()}
+    quality_dict = {key: ''.join(lines) for key, lines in text['qualities'].items()}
+    animal_dict = {key: ''.join(lines) for key, lines in text['animals'].items()}
+    buyer_dict = {key: ''.join(lines) for key, lines in text['buyers'].items()}
+    extra_dict = {key: ''.join(lines) for key, lines in text['extras'].items()}
 
     master_dict = {'intro_' + key: tweet for key, tweet in intro_dict.items()}
     master_dict.update({'quality_' + key: tweet for key, tweet in quality_dict.items()})
@@ -36,18 +34,22 @@ def create_intro(*args):
 
 def login():
 
-    consumer_key = os.environ.get('KEY')
-    consumer_secret = os.environ.get('KEY_SECRET')
-    access_token = os.environ.get('TOKEN')
-    access_secret = os.environ.get('TOKEN_SECRET')
+    with open('twtcred.json', 'r') as cred_file:
+        keys = load(cred_file)
+        consumer_key = keys['KEY']
+        consumer_secret = keys['KEY_SECRET']
+        access_token = keys['TOKEN']
+        access_secret = keys['TOKEN_SECRET']
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
     api = tweepy.API(auth)
+    try:
+        api.verify_credentials()
+        print("Authentication OK")
+    except:
+        print("Error during authentication")
     return api
-
-char_lim = 280
-
 
 def update(quality, animal, buyer):
     intro = create_intro(quality, animal, buyer)
@@ -60,7 +62,7 @@ def update(quality, animal, buyer):
                                  auto_populate_reply_metadata=True)
         reply_id = status.id
 
-
+login()
 '''
 
 api = tweepy.API(auth)
