@@ -146,3 +146,45 @@ Each option pays 0.5e items equal to your skeleton's value/50 +2 (1e bonus) and 
 -Antiquity: Memories of Light and Scintillack.
 
 
+The Antiquity thresholds and bonus profit for the Ambassador are:
+
+- 4 Antiquity = 0 Exh. 45e
+- 6 Antiquity = 1 Exh. 107.5e
+- 7 Antiquity = 2 Exh. 150e
+- 8 Antiquity = 3 Exh. 197.5e
+- 9 Antiquity = 4 Exh. 252.5e
+
+Cashing in Exh. at 6A is best as it gives extra 62.5e per point.
+
+
+The Amalgamy thresholds and bonus profit for the Entrepreneuer are:
+
+- 9 Amalgamy = 0 Exh. 50.5e
+- 14 Amalgamy = 1 Exh. 127.5e
+- 17 Amalgamy = 2 Exh. 192e
+- 19 Amalgamy = 3 Exh. 242.5e
+- 22 Amalgamy = 4 Exh. 329.5e
+
+Cashing in Exh. at 9A is best as it gives extra 77e per point.
+
+
+The Menace thresholds and bonus profit for the Teller of Terrors are:
+
+- 9 Menace = 0 Exh. 50.5e
+- 14 Menace = 1 Exh. 127.5e
+- 17 Menace = 2 Exh. 192e
+- 19 Menace = 3 Exh. 242.5e
+- 22 Menace = 4 Exh. 329.5e
+
+Cashing in Exh. at 9M is best as it gives extra 77e per point.
+
+
+A collage of the in-game icons for the four buyers affected by the Antiquity fluctuations;from left to right: the Enthusiast of the Ancient World, the Zailor with Particular Interests, the Author of Gothic Tales, and the Investment-Minded Ambassador.
+
+
+A collage of the in-game icons for the four buyers affected by the Amalgamy fluctuations;from left to right: the Tentacled Servant, the Zailor with Particular Interests, the Rubbery Collector, and the Tentacled Entrepreneur.
+
+
+A collage of the in-game icons for the four buyers affected by the Menace fluctuations;from left to right: Mrs Plenty, the Author of Gothic Tales, the Rubbery Collector, and the Teller of Terrors.
+
+
