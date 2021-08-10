@@ -13,7 +13,7 @@
       "enthusiast": "An Enthusiast in Skulls is here, attracted by rumours of many-headed skeletons!",
       "midnighter": "A Dreary Midnighter has descended from the surface in search of realistic skeletons!",
       "phantasist": "A Colourful Phantasist would like to see your most unbelievable skeletons!",
-      "malacologist": "An Ingenious Malacologist wants molluscs, and squids, and anything with lots of tentacles!",
+      "malacologist": "An Ingenuous Malacologist wants molluscs, and squids, and anything with lots of tentacles!",
       "salesman": "An Enterprising Boots Salesman is on the lookout for many-legged skeletons to display!"
     },
 
@@ -109,7 +109,7 @@
       "she gives 1 Exhaustion for every 20 units of secondary payout."
     ],
     "malacologist": [
-      "*Occasional Buyer: Ingenious Malacologist\n",
+      "*Occasional Buyer: Ingenuous Malacologist\n",
       "\n",
       "He wants AT LEAST 4 tentacles; ",
       "he pays in Preserved Surface Blooms equal to your skeleton's value/250 + 1 (2.5e bonus) and ",
@@ -155,7 +155,7 @@
       "- 19 Amalgamy = 3 Exh. 242.5e\n",
       "- 22 Amalgamy = 4 Exh. 329.5e\n",
       "\n",
-      "Cashing in Exh. at 9A is best as it gives extra 77e per point."
+      "Cashing in Exh. at 14A is best as it gives extra 77e per point."
     ],
     "menace": [
       "The Menace thresholds and bonus profit for the Teller of Terrors are:\n",
@@ -166,7 +166,7 @@
       "- 19 Menace = 3 Exh. 242.5e\n",
       "- 22 Menace = 4 Exh. 329.5e\n",
       "\n",
-      "Cashing in Exh. at 9M is best as it gives extra 77e per point."
+      "Cashing in Exh. at 14M is best as it gives extra 77e per point."
     ]
   },
   "metadata": {

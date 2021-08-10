@@ -52,7 +52,7 @@ A Dreary Midnighter has descended from the surface in search of realistic skelet
 A Colourful Phantasist would like to see your most unbelievable skeletons!
 
 
-An Ingenious Malacologist wants molluscs, and squids, and anything with lots of tentacles!
+An Ingenuous Malacologist wants molluscs, and squids, and anything with lots of tentacles!
 
 
 An Enterprising Boots Salesman is on the lookout for many-legged skeletons to display!
@@ -130,7 +130,7 @@ He wants NO chimeras or Curators and NO Amalgamy or Support for a Counter-Church
 She wants AT LEAST 2 Implausibility and AT LEAST 4 of either Antiquity/Amalgamy/Menace; she has several sale options which pay out in a variety of 0.5e and 2.5e items; she gives 1 Exhaustion for every 20 units of secondary payout.
 
 
-*Occasional Buyer: Ingenious Malacologist
+*Occasional Buyer: Ingenuous Malacologist
 
 He wants AT LEAST 4 tentacles; he pays in Preserved Surface Blooms equal to your skeleton's value/250 + 1 (2.5e bonus) and in Volumes of Collated Research equal to (Tentacles^2.2)/5; he gives 1 Exhaustion for every 20 Volumes.
 
@@ -165,7 +165,7 @@ The Amalgamy thresholds and bonus profit for the Entrepreneuer are:
 - 19 Amalgamy = 3 Exh. 242.5e
 - 22 Amalgamy = 4 Exh. 329.5e
 
-Cashing in Exh. at 9A is best as it gives extra 77e per point.
+Cashing in Exh. at 14A is best as it gives extra 77e per point.
 
 
 The Menace thresholds and bonus profit for the Teller of Terrors are:
@@ -176,7 +176,7 @@ The Menace thresholds and bonus profit for the Teller of Terrors are:
 - 19 Menace = 3 Exh. 242.5e
 - 22 Menace = 4 Exh. 329.5e
 
-Cashing in Exh. at 9M is best as it gives extra 77e per point.
+Cashing in Exh. at 14M is best as it gives extra 77e per point.
 
 
 A collage of the in-game icons for the four buyers affected by the Antiquity fluctuations;from left to right: the Enthusiast of the Ancient World, the Zailor with Particular Interests, the Author of Gothic Tales, and the Investment-Minded Ambassador.
