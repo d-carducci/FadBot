@@ -1,32 +1,32 @@
 import twit
 import time
 
-request_text = "Bone Market Update! Please enter the Quality/Animal/Buyer, separated by spaces."
-invalid_input_text = "Error: Invalid input."
-success_text = "Thread posted successfully!"
-failure_text = "Error: failed posting {} tweet."
+request_text = "This is a test, say 'A'."
+invalid_input_text = "Error: you didn't say 'A'."
+success_text = "Good girl!"
+failure_text = "Error: failed posting tweet."
 
 if __name__ == "__main__":
     API = twit.login()
     start_time = time.time()
     time_since_last_request = time.time()
     twit.contact_owner(API, request_text)
-    time.sleep(60)
+    time.sleep(3)
     while(True):
+        print('we looping')
         current_time = time.time()
         if (current_time - time_since_last_request) > 900:
             twit.contact_owner(API, request_text)
             time_since_last_request = time.time()
 
-        inpt = twit.fetch_reply(API)
+        inpt = twit.TEST_fetch_reply(API)
+        print(inpt['success'])
+        print(inpt['success'] == 'valid input')
         if inpt['success'] == 'valid input':
-            result = twit.update(API, *inpt['data'])
-            if result == -1:
-                twit.contact_owner(API, success_text)
-            else:
-                twit.contact_owner(API, failure_text.format(result))
+            twit.contact_owner(API, success_text)
             break
         elif inpt['success'] == 'invalid input':
             twit.contact_owner(API, invalid_input_text)
-        else:
             time.sleep(60)
+        else:
+            time.sleep(30)
