@@ -5,6 +5,7 @@ import os
 
 owner_id = os.environ.get('OWNER_ID')
 
+
 def login():
 
     consumer_key = os.environ.get('FB_KEY')
@@ -60,13 +61,14 @@ def update(api, quality, animal, buyer):
 def contact_owner(api, text):
     api.send_direct_message(owner_id, text)
 
-def fetch_reply(api, last_checked_id):
+def fetch_reply(api):
     latest_reply_fetched = False
     messages = api.list_direct_messages(50)
     response = {}
     for message in messages:
         if message.message_create["sender_id"] == owner_id:
             latest_reply_fetched = True
+            response['timestamp'] = message.created_timestamp
             break
 
     if latest_reply_fetched:
@@ -89,6 +91,7 @@ def TEST_fetch_reply(api):
     for message in messages:
         if message.message_create["sender_id"] == owner_id:
             latest_reply_fetched = True
+            response['timestamp'] = message.created_timestamp
             break
 
     if latest_reply_fetched:
