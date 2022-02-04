@@ -2,9 +2,7 @@ The buyers of #FallenLondon look to the past! This week's fad quality is Antiqui
 
 
 
-
 #FallenLondon is just oozing with interest! This week's fad quality is Amalgamy.
-
 
 
 
@@ -12,9 +10,7 @@ A taste for the macabre invests #FallenLondon! This week's fad quality is Menace
 
 
 
-
 It seems everyone has been dreaming feathers! This week's zoological mania is for Birds.
-
 
 
 
@@ -22,9 +18,7 @@ The crowd at the Bone Market is simply roaring! This week's zoological mania is 
 
 
 
-
 The Bone Market croaks with activity! This week's zoological mania is for Amphibians.
-
 
 
 
@@ -32,9 +26,7 @@ Zailors swarm the Bone Market! This week's zoological mania is for Fish.
 
 
 
-
 The Bone Market is crawling with buyers! This week's zoological mania is for Insects.
-
 
 
 
@@ -42,149 +34,121 @@ Buyers are really eyeing the stalls! This week's zoological mania is for Arachni
 
 
 
-
 An Enthusiast in Skulls is here, attracted by rumours of many-headed skeletons!
-
 
 A Dreary Midnighter has descended from the surface in search of realistic skeletons!
 
-
 A Colourful Phantasist would like to see your most unbelievable skeletons!
-
 
 An Ingenuous Malacologist wants molluscs, and squids, and anything with lots of tentacles!
 
-
 An Enterprising Boots Salesman is on the lookout for many-legged skeletons to display!
 
-
 *Fluctuations: Antiquity week*
-- The Enthusiast will give one additional Unprovenanced Artifact
-- The Zailor and the Author will give additional secondary rewards equal to half the skeleton's Antiquity
-- The Ambassador will give Tailfeathers equal to Antiquity^2.1
 
+- The Enthusiast will give one additional Unprovenanced Artifact;
+- The Zailor and the Author will give additional secondary rewards equal to half the skeleton's Antiquity;
+- The Ambassador will give Tailfeathers equal to 0.8*(Antiquity^2.1).
 
 *Fluctuations: Amalgamy week*
 
-- The Servant will give five additional Ambiguous Eoliths
-- The Zailor and the Collector will give additional secondary rewards equal to half the skeleton's Amalgamy
-- The Entrepreneur will give Memories of Distant Shores equal to Amalgamy^2.1
-
+- The Servant will give 5 additional Ambiguous Eoliths;
+- The Zailor and the Collector will give additional secondary rewards equal to half the skeleton's Amalgamy;
+- The Entrepreneur will give Memories of Distant Shores equal to 4*(Amalgamy^2.1).
 
 *Fluctuations: Menace week*
 
-- Mrs Plenty will give one additional Basket of Rubbery Pies
-- The Author and the Collector will give additional secondary rewards equal to half the skeleton's Menace
-- The Teller of Terrors will give Royal Blue Feathers equal to Menace^2.1
-
+- Mrs Plenty will give one additional Basket of Rubbery Pies;
+- The Author and the Collector will give additional secondary rewards equal to half the skeleton's Menace;
+- The Teller of Terrors will give Royal Blue Feathers equal to 4*(Menace^2.1).
 
 *Zoological Mania: Birds*
 
 Declaring a skeleton a Bird will increase its value by 10%!
 To do so you must have a Comprehensive Study of Avian Anatomies, Oneiric and Otherwise and your skeleton must have ANY # of skulls, EXACTLY 2 wings and 2 legs, NO arms/fins, and AT MOST 1 tail.
 
-
 *Zoological Mania: Reptiles*
 
 Declaring a skeleton a Reptile will increase its value by 10%!
 To do so you must have a Complete Account of Frogs, Toads, and Other Croaking Beasts and your skeleton must have EXACTLY 1 skull, AT MOST 4 legs, NO arms/fins/wings, and EXACTLY 1 tail.
-
 
 *Zoological Mania: Amphibians*
 
 Declaring a skeleton an Amphibian will increase its value by 10%!
 To do so you must have a Complete Account of Frogs, Toads, and Other Croaking Beasts and your skeleton must have EXACTLY 1 skull, EXACTLY 4 legs, NO arms/wings/fins, and NO tail.
 
-
 *Zoological Mania: Fish*
 
 Declaring a skeleton a Fish will increase its value by 15%!
 To do so you must have an Unexpurgated Accounting of the Anatomies of Aquatic Life-forms and your skeleton must have EXACTLY 1 skull, AT LEAST 2 fins, NO arms/legs/wings, and AT MOST 1 tail.
-
 
 *Zoological Mania: Insects*
 
 Declaring a skeleton an Insect will increase its value by 15%!
 To do so you must have a Survey of Arachnids and Insects Native to the Neath and Unterzee and your skeleton must have EXACTLY 1 skull and 6 legs, AT MOST 4 wings, and NO arms/fins/tails.
 
-
 *Zoological Mania: Arachnids*
 
 Declaring a skeleton an Arachnid will increase its value by 15%!
 To do so you must have a Survey of Arachnids and Insects Native to the Neath and Unterzee and your skeleton must have EXACTLY 8 legs, AT MOST 1 tail, and NO skulls/arms/fins/tails.
 
-
 *Occasional Buyer: Enthusiast in Skulls*
 
 He wants skeletons with AT LEAST 2 skulls; he pays in Pieces of Rostygold equal to your skeleton's value in pennies and in Vital Intelligence equal to (Skulls - 1)^1.8; he gives 1 Exhaustion for every 4 Vital Intelligence.
-
 
 *Occasional Buyer: Dreary Midnighter*
 
 He wants NO chimeras or Curators and NO Amalgamy or Support for a Counter-Church Theology; he pays in Surface Currency equal to your skeleton's value/3 + 100 (3e bonus) and one Vienna Opening (2.5e bonus); he gives no exhaustion.
 
 
-
 *Occasional Buyer: Colourful Phantasist
 
 She wants AT LEAST 2 Implausibility and AT LEAST 4 of either Antiquity/Amalgamy/Menace; she has several sale options which pay out in a variety of 0.5e and 2.5e items; she gives 1 Exhaustion for every 20 units of secondary payout.
 
-
 *Occasional Buyer: Ingenuous Malacologist
 
-He wants AT LEAST 4 tentacles; he pays in Preserved Surface Blooms equal to your skeleton's value/250 + 1 (2.5e bonus) and in Volumes of Collated Research equal to (Tentacles^2.2)/5; he gives 1 Exhaustion for every 20 Volumes.
-
+He wants AT LEAST 4 tentacles; he pays in Preserved Surface Blooms equal to your skeleton's value/250 + 1 (2.5e bonus) and in Volumes of Collated Research equal to Tentacles^2.2/5; he gives Exhaustion equal to Tentacles^2.2/100.
 
 *Occasional Buyer: Enterprising Boots Salesman
 
-He wants skeletons with NO Menace/Amalgamy and AT LEAST 4 legs; he pays Whisper-Satin equal to your skeleton's value in pennies/50 and Ostentatious Diamonds equal to Legs^2.2; his Exhaustion formula is yet to be confirmed.
-
+He wants skeletons with NO Menace/Amalgamy and AT LEAST 4 legs; he pays Whisper-Satin equal to your skeleton's value in pennies/50 and Ostentatious Diamonds equal to Legs^2.2; he gives Exhaustion equal to Legs^2/100 (rounded down).
 
 Each option pays 0.5e items equal to your skeleton's value/50 +2 (1e bonus) and 2.5e items equal to Implausibility*Quality. The options are:
 -Amalgamy: Hinterland Scrip and Bazaarine Poetry.
 -Menace: Solacefruit and Stygian Ivory.
 -Antiquity: Memories of Light and Scintillack.
 
+The Antiquity thresholds and secondary profit for the Ambassador this week are:
 
-The Antiquity thresholds and bonus profit for the Ambassador are:
+- 4 Antiquity = 0 Exh. 37.5e
+- 7 Antiquity = 1 Exh. 120e
+- 8 Antiquity = 2 Exh. 157.5e
+- 9 Antiquity = 3 Exh. 202.5e
+- 11 Antiquity = 4 Exh. 307.5e
+- 14 Antiquity = 7 Exh. 510e
 
-- 4 Antiquity = 0 Exh. 45e
-- 6 Antiquity = 1 Exh. 107.5e
-- 7 Antiquity = 2 Exh. 150e
-- 8 Antiquity = 3 Exh. 197.5e
-- 9 Antiquity = 4 Exh. 252.5e
+The Amalgamy thresholds and secondary profit for the Entrepreneuer this week are:
 
-Cashing in Exh. at 6A is best as it gives extra 62.5e per point.
+- 4 Amalgamy = 0 Exh. 37e
+- 7 Amalgamy = 1 Exh. 119e
+- 8 Amalgamy = 2 Exh. 157.5e
+- 9 Amalgamy = 3 Exh. 202e
+- 11 Amalgamy = 4 Exh. 307.5e
+- 14 Amalgamy = 7 Exh. 510.5e
 
+The Menace thresholds and bonus profit for the Teller of Terrors this week are:
 
-The Amalgamy thresholds and bonus profit for the Entrepreneuer are:
-
-- 9 Amalgamy = 0 Exh. 50.5e
-- 14 Amalgamy = 1 Exh. 127.5e
-- 17 Amalgamy = 2 Exh. 192e
-- 19 Amalgamy = 3 Exh. 242.5e
-- 22 Amalgamy = 4 Exh. 329.5e
-
-Cashing in Exh. at 14A is best as it gives extra 77e per point.
-
-
-The Menace thresholds and bonus profit for the Teller of Terrors are:
-
-- 9 Menace = 0 Exh. 50.5e
-- 14 Menace = 1 Exh. 127.5e
-- 17 Menace = 2 Exh. 192e
-- 19 Menace = 3 Exh. 242.5e
-- 22 Menace = 4 Exh. 329.5e
-
-Cashing in Exh. at 14M is best as it gives extra 77e per point.
+- 4 Menace = 0 Exh. 37e
+- 7 Menace = 1 Exh. 119e
+- 8 Menace = 2 Exh. 157.5e
+- 9 Menace = 3 Exh. 202e
+- 11 Menace = 4 Exh. 307.5e
+- 14 Menace = 7 Exh. 510.5e
 
 
-A collage of the in-game icons for the four buyers affected by the Antiquity fluctuations;from left to right: the Enthusiast of the Ancient World, the Zailor with Particular Interests, the Author of Gothic Tales, and the Investment-Minded Ambassador.
+A collage of the in-game icons for the four buyers affected by the Antiquity fluctuations; from left to right: the Enthusiast of the Ancient World, the Zailor with Particular Interests, the Author of Gothic Tales, and the Investment-Minded Ambassador.
 
-
-A collage of the in-game icons for the four buyers affected by the Amalgamy fluctuations;from left to right: the Tentacled Servant, the Zailor with Particular Interests, the Rubbery Collector, and the Tentacled Entrepreneur.
-
+A collage of the in-game icons for the four buyers affected by the Amalgamy fluctuations; from left to right: the Tentacled Servant, the Zailor with Particular Interests, the Rubbery Collector, and the Tentacled Entrepreneur.
 
 A collage of the in-game icons for the four buyers affected by the Menace fluctuations;from left to right: Mrs Plenty, the Author of Gothic Tales, the Rubbery Collector, and the Teller of Terrors.
-
 
